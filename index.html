@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UiTM Result - II IV W</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/flexslider/flexslider.css">
+        <link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+		
+		<script id="chatBroEmbedCode">
+/* Chatbro Widget Embed Code Start */
+function ChatbroLoader(chats,async) {async=async!==false;var params={embedChatsParameters:chats instanceof Array?chats:[chats],needLoadCode:typeof Chatbro==='undefined'};var xhr=new XMLHttpRequest();xhr.withCredentials = true;xhr.onload=function(){eval(xhr.responseText)};xhr.onerror=function(){console.error('Chatbro loading error')};xhr.open('POST','//www.chatbro.com/embed_chats/',async);xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');xhr.send('parameters='+encodeURIComponent(JSON.stringify(params)))}
+/* Chatbro Widget Embed Code End */
+ChatbroLoader({encodedChatId: '2Eh1'});
+
+function filter(lastMessages, newMessage, result) {
+	//current duplicate message count
+	var duplicateCount = 0;
+	//max duplicate message count
+	var maxDuplicateCount = 3;
+
+	for (var i in lastMessages) {
+		var lmsg = lastMessages[i];
+
+		//check message text
+		if (lmsg.originalText === newMessage.originalText) {
+			duplicateCount++;
+		}
+	}
+
+	if (duplicateCount == maxDuplicateCount - 1) {
+		// accept message and show info message
+		return result.info('Please stop'); 
+	}
+	if (duplicateCount == maxDuplicateCount) {
+		// accept message and show warning message
+		return result.warning('PLEASE DO NOT SPAM!.'); 
+	}
+
+	if (duplicateCount > maxDuplicateCount) {
+		// you can abort sending
+		// return result.decline('Your message was declined'); 
+		// or ban user
+		return result.ban(15, 'You are banned');  // 15 min
+	}
+
+	// everything alright
+	return result.accept();
+}
+</script>
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body >
+	
+        <!-- Top menu -->
+		<nav class="navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">UiTM</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+
+					<ul class="nav navbar-nav navbar-right">
+						<div class="col-sm-12 wow fadeIn">
+                        <i class=""></i>
+                        <h1>UiTM Result Check</h1>
+                        <p>From student to students</p>
+                    </div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+        
+        <!-- Page Title -->
+        <div class="page-title-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 wow fadeIn">
+                        
+                        <h1>Welcome to UiTM Result page</h1>
+                        <!-- <p>Follow the instruction below</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="contact-us-container">
+        	<div class="container">
+	            <div class="row">
+				<!--Advert-->
+				<div class="col-sm-3 contact-address wow fadeInUp">
+				
+				
+				<!-- <h1> Advert</h1> -->
+				
+				<!-- Start of adf.ly banner code -->
+				<!-- <a href="https://join-adf.ly/16070915"><img border="0" src="https://cdn.adf.ly/images/banners/adfly.160x600.4.gif" width="160" height="600" title="AdF.ly - shorten links and earn money!" /></a> -->
+<!-- End of adf.ly banner code -->
+				
+				</div>
+				<!--Advert-->
+	                <div class="col-sm-6 contact-form wow fadeInLeft">
+						<h2>Instruction</h2>
+	                    <p>
+	                    	# Open e-mail and find last semester result only."UiTM EXAMINATION RESULT FOR SEMESTER" In other word, open last semester's result.
+		                </p>
+						<p># Click on right on "Print Result Online Svr 1", click COPY link address and PASTE it here.</p>
+						<p># Click "GENERATE RESULT" button.</p>
+						
+						<p># Click <a href="#">here</a> for images tutorial.</p>
+						
+	                    <form role="form" action="assets/contact.php" method="post">
+	                    	
+	                    	
+	                        	                        <div class="form-group">
+	                        	<label for="contact-message">Result URL</label>
+	                        	<input type="text" name="url" placeholder="Example : http://simsweb.uitm.edu.my/sportal_app/STUDENTPORTAL_EXAM_RESULT_SLIP_FROM_EMAIL/print.cfm?..." class="contact-message" id="contact-message"></textarea>
+								<input name="sort" value="sort" type="checkbox" hidden>
+								<p id="tooltip" hidden>
+    	<input type="checkbox" value="tipuJe" name="justKiddingBrah">
+    	I absolutely very <a href="#" title="Gurau je.">agree</a> to share my information to web creator and their associates. For science. :3
+        </p>
+							</div>
+							
+
+							<button  type="button" id="button" value="GENERATE URL"  class="btn" onclick="split(this.form)">GENERATE RESULT</button>
+	                        <!-- <button type="button" class="btn">Send</button> -->
+							
+							<div id="output" style="display: block;"></div>
+	                    </form>
+						
+						<div hidden>
+id1 : <input id="1" type="text"/><br>
+id2 : <input id="2" type="text"/><br>
+id3 : <input id="3" type="text"/><br>
+id4 : <input id="4" type="text"/><br>
+id5 : <input id="5" type="text"/><br>
+idsem1 : <input id="6" type="text"/><br>
+idsem2 : <input id="7" type="text"/><br>
+idsem3 : <input id="8" type="text"/>
+<br>
+<br>
+<button  id="myButton" class="float-left submit-button" hidden></button>
+</div>
+
+<!--Advert-->
+	                </div>
+	                <div class="col-sm-3 contact-address wow fadeInUp-right">
+	                   <!-- <h1> Advert</h1> -->
+					   <!-- Start of adf.ly banner code -->
+					   <!-- <a href="https://join-adf.ly/16070915"><img border="0" src="https://cdn.adf.ly/images/banners/adfly.160x600.2.gif" width="160" height="600" title="AdF.ly - shorten links and earn money!" /></a> -->
+<!-- End of adf.ly banner code -->
+	                </div>
+	            </div>
+	        </div>
+        </div>
+<!--Advert-->
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <!-- <div class="row">
+                    <div class="col-sm-3 footer-box wow fadeInUp">
+                        <h4>About Us</h4>
+                        <div class="footer-box-text">
+	                        <p>
+	                        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
+	                        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+	                        </p>
+	                        <p><a href="about.html">Read more...</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 footer-box wow fadeInDown">
+                        <h4>Email Updates</h4>
+                        <div class="footer-box-text footer-box-text-subscribe">
+                        	<p>Enter your email and you'll be one of the first to get new updates:</p>
+                        	<form role="form" action="assets/subscribe.php" method="post">
+		                    	<div class="form-group">
+		                    		<label class="sr-only" for="subscribe-email">Email address</label>
+		                        	<input type="text" name="email" placeholder="Email..." class="subscribe-email" id="subscribe-email">
+		                        </div>
+		                        <button type="submit" class="btn">Subscribe</button>
+		                    </form>
+		                    <p class="success-message"></p>
+		                    <p class="error-message"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 footer-box wow fadeInUp">
+                        <h4>Flickr Photos</h4>
+                        <div class="footer-box-text flickr-feed"></div>
+                    </div>
+                    <div class="col-sm-3 footer-box wow fadeInDown">
+                        <h4>Contact Us</h4>
+                        <div class="footer-box-text footer-box-text-contact">
+	                        <p><i class="fa fa-map-marker"></i> Address: Via Principe Amedeo 9, 10100, Torino, TO, Italy</p>
+	                        <p><i class="fa fa-phone"></i> Phone: 0039 333 12 68 347</p>
+	                        <p><i class="fa fa-user"></i> Skype: Andia_Agency</p>
+	                        <p><i class="fa fa-envelope"></i> Email: <a href="">contact@andia.co.uk</a></p>
+                        </div>
+                    </div>
+                </div>
+                 -->
+				 <div class="row">
+                	<div class="col-sm-3 wow fadeIn">
+                		<div class="footer-border"></div>
+                	</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7 footer-copyright wow fadeIn">
+                        <p>Copyright&copy; 2017 II IV W ™ - All rights reserved. </p>
+                    </div>
+                    <div class="col-sm-5 footer-social wow fadeIn">
+					Created by ∦ƙʍ⁹ Revamped by ↁ⋼ſƵ₃
+                        <a href="#"></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Javascript -->
+		
+		
+		<script src="calculation.js"></script>
+		<script src="ad.js"></script>
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/flexslider/jquery.flexslider-min.js"></script>
+        <script src="assets/js/jflickrfeed.min.js"></script>
+        <script src="assets/js/masonry.pkgd.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="assets/js/jquery.ui.map.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+		<script src="https://cdn.adf.ly/js/link-converter.js"></script>
+<script src="https://cdn.adf.ly/js/entry.js"></script>
+    </body>
+	
+	<script type="text/javascript"  charset="utf-8">
+// Place this code snippet near the footer of your page before the close of the /body tag
+// LEGAL NOTICE: The content of this website and all associated program code are protected under the Digital Millennium Copyright Act. Intentionally circumventing this code may constitute a violation of the DMCA.
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}(';z O=\'\',2e=\'1X\';1K(z i=0;i<12;i++)O+=2e.X(E.L(E.J()*2e.G));z 2q=1,2n=49,2o=4J,2i=4I,34=D(e){z o=!1,i=D(){B(k.1i){k.2H(\'2L\',t);F.2H(\'1V\',t)}R{k.2I(\'2M\',t);F.2I(\'24\',t)}},t=D(){B(!o&&(k.1i||4G.2w===\'1V\'||k.2J===\'2K\')){o=!0;i();e()}};B(k.2J===\'2K\'){e()}R B(k.1i){k.1i(\'2L\',t);F.1i(\'1V\',t)}R{k.2N(\'2M\',t);F.2N(\'24\',t);z n=!1;2O{n=F.4D==4C&&k.2a}2Q(r){};B(n&&n.2P){(D a(){B(o)I;2O{n.2P(\'19\')}2Q(t){I 4A(a,50)};o=!0;i();e()})()}}};F[\'\'+O+\'\']=(D(){z e={e$:\'1X+/=\',4z:D(t){z a=\'\',d,n,o,c,s,l,i,r=0;t=e.t$(t);1b(r<t.G){d=t.17(r++);n=t.17(r++);o=t.17(r++);c=d>>2;s=(d&3)<<4|n>>4;l=(n&15)<<2|o>>6;i=o&63;B(2G(n)){l=i=64}R B(2G(o)){i=64};a=a+U.e$.X(c)+U.e$.X(s)+U.e$.X(l)+U.e$.X(i)};I a},11:D(t){z n=\'\',d,l,c,s,r,i,a,o=0;t=t.1q(/[^A-4y-4x-9\\+\\/\\=]/g,\'\');1b(o<t.G){s=U.e$.1M(t.X(o++));r=U.e$.1M(t.X(o++));i=U.e$.1M(t.X(o++));a=U.e$.1M(t.X(o++));d=s<<2|r>>4;l=(r&15)<<4|i>>2;c=(i&3)<<6|a;n=n+P.T(d);B(i!=64){n=n+P.T(l)};B(a!=64){n=n+P.T(c)}};n=e.n$(n);I n},t$:D(e){e=e.1q(/;/g,\';\');z n=\'\';1K(z o=0;o<e.G;o++){z t=e.17(o);B(t<1u){n+=P.T(t)}R B(t>4v&&t<4h){n+=P.T(t>>6|4u);n+=P.T(t&63|1u)}R{n+=P.T(t>>12|2U);n+=P.T(t>>6&63|1u);n+=P.T(t&63|1u)}};I n},n$:D(e){z o=\'\',t=0,n=4t=1v=0;1b(t<e.G){n=e.17(t);B(n<1u){o+=P.T(n);t++}R B(n>4s&&n<2U){1v=e.17(t+1);o+=P.T((n&31)<<6|1v&63);t+=2}R{1v=e.17(t+1);2X=e.17(t+2);o+=P.T((n&15)<<12|(1v&63)<<6|2X&63);t+=3}};I o}};z a=[\'4o==\',\'4n\',\'4m=\',\'4l\',\'4k\',\'4j=\',\'4i=\',\'4K=\',\'4w\',\'4L\',\'53=\',\'5g=\',\'5f\',\'5e\',\'5d=\',\'5c\',\'5b=\',\'5a=\',\'59=\',\'58=\',\'57=\',\'56=\',\'55==\',\'54==\',\'52==\',\'4N==\',\'51=\',\'4Z\',\'4Y\',\'4X\',\'4W\',\'4V\',\'4U\',\'4T==\',\'4S=\',\'4R=\',\'4f=\',\'4P==\',\'4O=\',\'4M\',\'4g=\',\'4b=\',\'4e==\',\'3u=\',\'3v==\',\'3w==\',\'3x=\',\'3y=\',\'3z\',\'3t==\',\'3A==\',\'3C\',\'3D==\',\'3E=\'],f=E.L(E.J()*a.G),Y=e.11(a[f]),w=Y,Q=1,W=\'#3F\',r=\'#3G\',v=\'#3r\',g=\'#3B\',Z=\'\',b=\'3s 2c 3q 3h 3g!\',p=\'3j 3k 3l 1W\\\'3m 3n 3o 3p 3I.\',y=\'3H 3K 3Z 4d 2c 4c 3J 4a U 48 47 2Y 2Z 32. \',s=\'46 45 B 1W 44 2Y 2Z 32. 42 1W :)\',o=0,u=0,n=\'40.3Y\',l=0,M=t()+\'.36\';D h(e){B(e)e=e.1R(e.G-15);z o=k.28(\'2l\');1K(z n=o.G;n--;){z t=P(o[n].1p);B(t)t=t.1R(t.G-15);B(t===e)I!0};I!1};D m(e){B(e)e=e.1R(e.G-15);z t=k.3L;x=0;1b(x<t.G){1n=t[x].1G;B(1n)1n=1n.1R(1n.G-15);B(1n===e)I!0;x++};I!1};D t(e){z n=\'\',o=\'1X\';e=e||30;1K(z t=0;t<e;t++)n+=o.X(E.L(E.J()*o.G));I n};D i(o){z i=[\'3W\',\'3V==\',\'3U\',\'3T\',\'2F\',\'3S==\',\'3R=\',\'5i==\',\'3Q=\',\'3P==\',\'3O==\',\'3N==\',\'3M\',\'5h\',\'4Q\',\'2F\'],r=[\'2t=\',\'5q==\',\'6z==\',\'6y==\',\'6x=\',\'6w\',\'6v=\',\'6u=\',\'2t=\',\'6s\',\'6r==\',\'6q\',\'6o==\',\'6e==\',\'6m==\',\'6k=\'];x=0;1U=[];1b(x<o){c=i[E.L(E.J()*i.G)];d=r[E.L(E.J()*r.G)];c=e.11(c);d=e.11(d);z a=E.L(E.J()*2)+1;B(a==1){n=\'//\'+c+\'/\'+d}R{n=\'//\'+c+\'/\'+t(E.L(E.J()*20)+4)+\'.36\'};1U[x]=1S 21();1U[x].23=D(){z e=1;1b(e<7){e++}};1U[x].1p=n;x++}};D C(e){};I{2R:D(e,i){B(6h k.K==\'6g\'){I};z o=\'0.1\',i=w,t=k.16(\'1D\');t.1o=i;t.j.1m=\'1T\';t.j.19=\'-1l\';t.j.V=\'-1l\';t.j.1z=\'2h\';t.j.13=\'6A\';z d=k.K.2D,a=E.L(d.G/2);B(a>15){z n=k.16(\'2f\');n.j.1m=\'1T\';n.j.1z=\'1r\';n.j.13=\'1r\';n.j.V=\'-1l\';n.j.19=\'-1l\';k.K.2k(n,k.K.2D[a]);n.1e(t);z r=k.16(\'1D\');r.1o=\'2j\';r.j.1m=\'1T\';r.j.19=\'-1l\';r.j.V=\'-1l\';k.K.1e(r)}R{t.1o=\'2j\';k.K.1e(t)};l=6P(D(){B(t){e((t.2b==0),o);e((t.29==0),o);e((t.1N==\'33\'),o);e((t.1Q==\'2W\'),o);e((t.1H==0),o)}R{e(!0,o)}},2d)},1L:D(t,d){B((t)&&(o==0)){o=1;(D(e,n,r,a,t,o,i){e[\'6O\']=t;e[t]=e[t]||D(){(e[t].q=e[t].q||[]).6K(6G)},e[t].l=1*1S 2p();o=n.16(r),i=n.28(r)[0];o.6D=1;o.1p=a;i.6S.2k(o,i)})(F,k,\'2l\',\'6H://6I.6J-2m.2z/2m.6M\',\'1Z\');1Z(\'6N\',\'6Q-6R-1\',\'1P\');1Z(\'6f\',\'6d\');F[\'\'+O+\'\'].1C();F[\'\'+O+\'\'].1L=D(){I}}R{z y=e.11(\'5J\'),u=k.6b(y);B((u)&&(o==0)){B((2n%3)==0){z c=\'5F=\';c=e.11(c);B(h(c)){B(u.1I.1q(/\\s/g,\'\').G==0){o=1;F[\'\'+O+\'\'].1C()}}}};z f=!1;B(o==0){B((2o%3)==0){B(!F[\'\'+O+\'\'].2s){z l=[\'5D==\',\'5C==\',\'5B=\',\'5A=\',\'5z=\'],m=l.G,r=l[E.L(E.J()*m)],a=r;1b(r==a){a=l[E.L(E.J()*m)]};r=e.11(r);a=e.11(a);i(E.L(E.J()*2)+1);z n=1S 21(),s=1S 21();n.23=D(){i(E.L(E.J()*2)+1);s.1p=a;i(E.L(E.J()*2)+1)};s.23=D(){o=1;i(E.L(E.J()*3)+1);F[\'\'+O+\'\'].1C()};n.1p=r;B((2i%3)==0){n.24=D(){B((n.13<8)&&(n.13>0)){F[\'\'+O+\'\'].1C()}}};i(E.L(E.J()*3)+1);F[\'\'+O+\'\'].2s=!0};F[\'\'+O+\'\'].1L=D(){I}}}}},1C:D(){B(u==1){z N=2u.5p(\'2v\');B(N>0){I!0}R{2u.5m(\'2v\',(E.J()+1)*2d)}};z h=\'5w==\';h=e.11(h);B(!m(h)){z c=k.16(\'6a\');c.27(\'69\',\'68\');c.27(\'2w\',\'1k/66\');c.27(\'1G\',h);k.28(\'61\')[0].1e(c)};5Y(l);k.K.1I=\'\';k.K.j.14+=\'S:1r !1a\';k.K.j.14+=\'1w:1r !1a\';z M=k.2a.29||F.38||k.K.29,f=F.5V||k.K.2b||k.2a.2b,a=k.16(\'1D\'),Q=t();a.1o=Q;a.j.1m=\'2S\';a.j.19=\'0\';a.j.V=\'0\';a.j.13=M+\'1A\';a.j.1z=f+\'1A\';a.j.3f=W;a.j.1Y=\'5S\';k.K.1e(a);z d=\'<a 1G="5R://5Q.2z" j="H-1f:10.5O;H-1h:1g-1j;1c:5N;">5L 6B 5E 2c 26 5T</a>\';d=d.1q(\'5X\',t());d=d.1q(\'5Z\',t());z i=k.16(\'1D\');i.1I=d;i.j.1m=\'1T\';i.j.1B=\'1E\';i.j.19=\'1E\';i.j.13=\'5W\';i.j.1z=\'5o\';i.j.1Y=\'37\';i.j.1H=\'.6\';i.j.35=\'2C\';i.1i(\'5u\',D(){n=n.5x(\'\').5y().5G(\'\');F.2r.1G=\'//\'+n});k.1O(Q).1e(i);z o=k.16(\'1D\'),C=t();o.1o=C;o.j.1m=\'2S\';o.j.V=f/7+\'1A\';o.j.6n=M-3i+\'1A\';o.j.6l=f/3.5+\'1A\';o.j.3f=\'#5P\';o.j.1Y=\'37\';o.j.14+=\'H-1h: "67 5I", 1t, 1s, 1g-1j !1a\';o.j.14+=\'5l-1z: 5n !1a\';o.j.14+=\'H-1f: 5r !1a\';o.j.14+=\'1k-1x: 1y !1a\';o.j.14+=\'1w: 5s !1a\';o.j.1N+=\'26\';o.j.3c=\'1E\';o.j.5t=\'1E\';o.j.6c=\'2y\';k.K.1e(o);o.j.6L=\'1r 6E 6C -6p 6t(0,0,0,0.3)\';o.j.1Q=\'2E\';z w=30,Y=22,x=18,Z=18;B((F.38<3b)||(41.13<3b)){o.j.39=\'50%\';o.j.14+=\'H-1f: 4p !1a\';o.j.3c=\'4r;\';i.j.39=\'65%\';z w=22,Y=18,x=12,Z=12};o.1I=\'<3d j="1c:#4B;H-1f:\'+w+\'1F;1c:\'+r+\';H-1h:1t, 1s, 1g-1j;H-1J:4E;S-V:1d;S-1B:1d;1k-1x:1y;">\'+b+\'</3d><3a j="H-1f:\'+Y+\'1F;H-1J:4H;H-1h:1t, 1s, 1g-1j;1c:\'+r+\';S-V:1d;S-1B:1d;1k-1x:1y;">\'+p+\'</3a><6j j=" 1N: 26;S-V: 0.3e;S-1B: 0.3e;S-19: 1P;S-2x: 1P; 2A:4q 43 #6F; 13: 25%;1k-1x:1y;"><p j="H-1h:1t, 1s, 1g-1j;H-1J:2B;H-1f:\'+x+\'1F;1c:\'+r+\';1k-1x:1y;">\'+y+\'</p><p j="S-V:5U;"><2f 62="U.j.1H=.9;" 6i="U.j.1H=1;"  1o="\'+t()+\'" j="35:2C;H-1f:\'+Z+\'1F;H-1h:1t, 1s, 1g-1j; H-1J:2B;2A-5M:2y;1w:1d;5K-1c:\'+v+\';1c:\'+g+\';1w-19:2h;1w-2x:2h;13:60%;S:1P;S-V:1d;S-1B:1d;" 5H="F.2r.5j();">\'+s+\'</2f></p>\'}}})();F.2T=D(e,t){z n=2p.5k,o=F.5v,a=n(),i,r=D(){n()-a<t?i||o(r):e()};o(r);I{3X:D(){i=1}}};z 2V;B(k.K){k.K.j.1Q=\'2E\'};34(D(){B(k.1O(\'2g\')){k.1O(\'2g\').j.1Q=\'33\';k.1O(\'2g\').j.1N=\'2W\'};2V=F.2T(D(){F[\'\'+O+\'\'].2R(F[\'\'+O+\'\'].1L,F[\'\'+O+\'\'].4F)},2q*2d)});',62,427,'|||||||||||||||||||style|document|||||||||||||||var||if||function|Math|window|length|font|return|random|body|floor|||NerdDzAoZois|String||else|margin|fromCharCode|this|top||charAt||||decode||width|cssText||createElement|charCodeAt||left|important|while|color|10px|appendChild|size|sans|family|addEventListener|serif|text|5000px|position|thisurl|id|src|replace|0px|geneva|Helvetica|128|c2|padding|align|center|height|px|bottom|RIGjMkImyI|DIV|30px|pt|href|opacity|innerHTML|weight|for|nNmyzGltbg|indexOf|display|getElementById|auto|visibility|substr|new|absolute|spimg|load|you|ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|zIndex|ga||Image||onerror|onload||block|setAttribute|getElementsByTagName|clientWidth|documentElement|clientHeight|to|1000|KotEawTtTG|div|babasbmsgx|60px|fDmpNXcRlE|banner_ad|insertBefore|script|analytics|SxBqinQwOb|yAHRICuYMx|Date|WTPCcCNLOm|location|ranAlready|ZmF2aWNvbi5pY28|sessionStorage|babn|type|right|15px|com|border|300|pointer|childNodes|visible|cGFydG5lcmFkcy55c20ueWFob28uY29t|isNaN|removeEventListener|detachEvent|readyState|complete|DOMContentLoaded|onreadystatechange|attachEvent|try|doScroll|catch|QOkkKMenBr|fixed|VjxLMAnAlc|224|MFshVCqkdg|none|c3|disable|your|||adBlock|hidden|KduWCTDOnE|cursor|jpg|10000|innerWidth|zoom|h1|640|marginLeft|h3|5em|backgroundColor|Checker|Result|120|It|looks|like|re|using|an|ad|UiTM|8800cc|Welcome|cG9wdXBhZA|YmFubmVyYWQ|IGFkX2JveA|YWRfY2hhbm5lbA|YWRzZXJ2ZXI|YmFubmVyaWQ|YWRzbG90|YWRzZW5zZQ|FFFFFF|Z29vZ2xlX2Fk|b3V0YnJhaW4tcGFpZA|c3BvbnNvcmVkX2xpbms|EEEEEE|777777|Please|blocker|and|support|styleSheets|YWRzYXR0LmFiY25ld3Muc3RhcndhdmUuY29t|YWRzLnp5bmdhLmNvbQ|YWRzLnlhaG9vLmNvbQ|cHJvbW90ZS5wYWlyLmNvbQ|Y2FzLmNsaWNrYWJpbGl0eS5jb20|YWdvZGEubmV0L2Jhbm5lcnM|YS5saXZlc3BvcnRtZWRpYS5ldQ|YWQuZm94bmV0d29ya3MuY29t|anVpY3lhZHMuY29t|YWQubWFpbC5ydQ|YWRuLmViYXkuY29t|clear|kcolbdakcolb|our|moc|screen|Thank|solid|done|here|Click|by|project||publish|YWRiYW5uZXI|code|effort|YWRBZA|QWRDb250YWluZXI|YWRCYW5uZXI|2048|YWQtbGFiZWw|YWQtaW5uZXI|YWQtaW1n|YWQtaGVhZGVy|YWQtZnJhbWU|YWRCYW5uZXJXcmFw|YWQtbGVmdA|18pt|1px|45px|191|c1|192|127|YWQtZm9vdGVy|z0|Za|encode|setTimeout|999|null|frameElement|200|tqvqkioAPG|event|500|133|199|YWQtbGI|YWQtY29udGFpbmVy|YmFubmVyX2Fk|QWRzX2dvb2dsZV8wNA|YWRUZWFzZXI|Z2xpbmtzd3JhcHBlcg|YXMuaW5ib3guY29t|QWRCb3gxNjA|QWREaXY|QWRJbWFnZQ|RGl2QWRD|RGl2QWRC|RGl2QWRB|RGl2QWQz|RGl2QWQy|RGl2QWQx||RGl2QWQ|QWRzX2dvb2dsZV8wMw|YWQtY29udGFpbmVyLTE|QWRzX2dvb2dsZV8wMg|QWRzX2dvb2dsZV8wMQ|QWRMYXllcjI|QWRMYXllcjE|QWRGcmFtZTQ|QWRGcmFtZTM|QWRGcmFtZTI|QWRGcmFtZTE|QWRBcmVh|QWQ3Mjh4OTA|QWQzMDB4MjUw|QWQzMDB4MTQ1|YWQtY29udGFpbmVyLTI|YWRzYXR0LmVzcG4uc3RhcndhdmUuY29t|YWR2ZXJ0aXNpbmcuYW9sLmNvbQ|reload|now|line|setItem|normal|40px|getItem|YmFubmVyLmpwZw|16pt|12px|marginRight|click|requestAnimationFrame|Ly95dWkueWFob29hcGlzLmNvbS8zLjE4LjEvYnVpbGQvY3NzcmVzZXQvY3NzcmVzZXQtbWluLmNzcw|split|reverse|Ly93d3cuZG91YmxlY2xpY2tieWdvb2dsZS5jb20vZmF2aWNvbi5pY28|Ly9hZHMudHdpdHRlci5jb20vZmF2aWNvbi5pY28|Ly9hZHZlcnRpc2luZy55YWhvby5jb20vZmF2aWNvbi5pY28|Ly93d3cuZ3N0YXRpYy5jb20vYWR4L2RvdWJsZWNsaWNrLmljbw|Ly93d3cuZ29vZ2xlLmNvbS9hZHNlbnNlL3N0YXJ0L2ltYWdlcy9mYXZpY29uLmljbw|way|Ly9wYWdlYWQyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wYWdlYWQvanMvYWRzYnlnb29nbGUuanM|join|onclick|Black|aW5zLmFkc2J5Z29vZ2xl|background|The|radius|black|5pt|fff|blockadblock|http|9999|adblockers|35px|innerHeight|160px|FILLVECTID1|clearInterval|FILLVECTID2||head|onmouseover||||css|Arial|stylesheet|rel|link|querySelector|borderRadius|pageview|bGFyZ2VfYmFubmVyLmdpZg|send|undefined|typeof|onmouseout|hr|YWR2ZXJ0aXNlbWVudC0zNDMyMy5qcGc|minHeight|d2lkZV9za3lzY3JhcGVyLmpwZw|minWidth|YmFubmVyX2FkLmdpZg|8px|ZmF2aWNvbjEuaWNv|c3F1YXJlLWFkLnBuZw|YWQtbGFyZ2UucG5n|rgba|Q0ROLTMzNC0xMDktMTM3eC1hZC1iYW5uZXI|YWRjbGllbnQtMDAyMTQ3LWhvc3QxLWJhbm5lci1hZC5qcGc|MTM2N19hZC1jbGllbnRJRDI0NjQuanBn|c2t5c2NyYXBlci5qcGc|NzIweDkwLmpwZw|NDY4eDYwLmpwZw|468px|best|24px|async|14px|CCC|arguments|https|www|google|push|boxShadow|js|create|GoogleAnalyticsObject|setInterval|UA|92529656|parentNode'.split('|'),0,{}));
+</script>
+	</html>
